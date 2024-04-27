@@ -12,10 +12,21 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 library(devtools)
 ```
-```{r}
-create_package("C:/Users/dinos/Desktop/R/creating_package/FirstPackage"1)
-```
-```{r}
 
+```{r}
+use_git()
+```
+
+```{r}
+load_all()
+```
+
+```{r}
+x <- "alfa,bravo,charlie,delta"
+strsplit1(x, split = ",")
+```
+
+```{r}
+exists("strsplit1", where = globalenv(), inherits = FALSE)
 ```
 
